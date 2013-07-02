@@ -1,7 +1,9 @@
 # Django settings for rapidsms_tut project.
 
-import os
-from tut import myhandlers
+import os, sys
+sys.path.append('tut')
+import myhandlers
+
 # The top directory for this project. Contains requirements/, manage.py,
 # and README.rst, a rapidsms_tut directory with settings etc (see
 # PROJECT_PATH), as well as a directory for each Django app added to this
