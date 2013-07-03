@@ -221,4 +221,6 @@ RAPIDSMS_HANDLERS = (
     'rapidsms.contrib.echo.handlers.echo.EchoHandler',
     'rapidsms.contrib.echo.handlers.ping.PingHandler',
     'myhandlers.HelpHandler',
+    'myhandlers.MultiplyHandler',
+    'myhandlers.PatternKeywordhandler',
 )
