@@ -221,7 +221,7 @@ RAPIDSMS_HANDLERS = (
     'rapidsms.contrib.echo.handlers.ping.PingHandler',
     'tut.myhandlers.HelpHandler',
     'tut.myhandlers.MultiplyHandler',
-    'tut.myhandlers.PatternKeywordHandler',
     'voting.handler.ResultHandler',
     'voting.handler.VoteHandler',
+    'tut.myhandlers.PatternKeywordHandler',
 )

@@ -22,7 +22,7 @@ class VoteHandler(KeywordHandler):
     keyword = 'vote'
 
     def help(self):
-        choices='|'.join(Choice.objects.value_list('name', flat=True))
+        choices = '|'.join(Choice.objects.value_list('name', flat=True))
         self.respond("Valid commands: VOTE <%s>" % choices)
 
 
