@@ -9,7 +9,7 @@ help_text = {
 class HelpHandler(KeywordHandler):
     """docstring for HelpHandler"""
 
-    keyword  = "help"
+    keyword = "help"
 
     def help(self):
         self.respond("Allowed commands are AAA, BBB, and CCC. Send HELP <command> for more help on a specific command.")

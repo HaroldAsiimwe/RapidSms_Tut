@@ -1,12 +1,6 @@
 # Django settings for rapidsms_tut project.
 
 import os, sys 
-sys.path.append('tut')
-sys.path.append('voting')
-import myhandlers
-import handler
-
-
 
 # The top directory for this project. Contains requirements/, manage.py,
 # and README.rst, a rapidsms_tut directory with settings etc (see
@@ -119,7 +113,7 @@ MIDDLEWARE_CLASSES = (
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
-    'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'django.middleware.clickjacking.XFrameOptiosys.path.append('voting')nsMiddleware',
 )
 
 ROOT_URLCONF = 'rapidsms_tut.urls'
